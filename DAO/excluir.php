@@ -7,7 +7,7 @@
             try{
                 $conn   = $conexao->conectar();
                 $sql   = "delete from veterinario where codigo = '$codigo'";
-                $result   = mysqli_query($conn, $sql);
+                $result  = mysqli_query($conn, $sql);
                 //fim do banco de dados 
                     if($result){
                         return "<br><br>Excluido com sucesso!";

@@ -12,3 +12,5 @@ endereco varchar(250) not null
 select * from veterinario;
 
 
+
+

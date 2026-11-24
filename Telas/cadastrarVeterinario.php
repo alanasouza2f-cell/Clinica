@@ -8,7 +8,7 @@
     use Clinica\Projeto\DAO\cadastrar;
     
     $conexao = new Conexao;
-    $cadastrar = Cadastrar;
+    $cadastrar = new Cadastrar();
     $mensagem = "";
 ?>
 
